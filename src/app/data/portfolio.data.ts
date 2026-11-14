@@ -34,7 +34,8 @@ export const PERFIL: Perfil = {
   bio:
     'Estudiante de octavo semestre de Ingeniería de Sistemas en la Unidad Central del Valle del Cauca (UCEVA). ' +
     'Me apasiona el desarrollo frontend y crear aplicaciones web y móviles útiles, rápidas y agradables de usar. ' +
-    'Complemento con backend en Spring Boot y Node.js, y trabajo con pruebas, buenas prácticas y despliegue continuo.',
+        'Complemento con backend en Spring Boot y Node.js, y trabajo con pruebas, buenas prácticas y despliegue continuo. ' +
+    'Tengo nivel B2 de inglés.',
   github: 'https://github.com/juanpablo-devia',
   lenguajes: ['TypeScript', 'JavaScript', 'Java', 'Dart', 'C', 'SQL', 'HTML y CSS'],
   tecnologias: [
@@ -65,6 +66,12 @@ export const PERFIL: Perfil = {
       url: 'mailto:juan.devia01@uceva.edu.co',
     },
     { tipo: 'GitHub', texto: 'github.com/juanpablo-devia', url: 'https://github.com/juanpablo-devia' },
+
+        {
+      tipo: 'LinkedIn',
+      texto: 'linkedin.com/in/juan-pablo-devia-masso',
+      url: 'https://www.linkedin.com/in/juan-pablo-devia-masso-773a71432/',
+    },
   ],
 };
 
