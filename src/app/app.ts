@@ -1,11 +1,13 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
+import { PERFIL, PROYECTOS } from './data/portfolio.data';
 
 @Component({
-  imports: [],
   selector: 'app-root',
-  styleUrl: './app.scss',
   templateUrl: './app.html',
+  styleUrl: './app.scss',
 })
 export class App {
-  protected readonly title = signal('dev-portfolio');
+  protected readonly perfil = PERFIL;
+  protected readonly proyectos = PROYECTOS;
+  protected readonly anio = new Date().getFullYear();
 }
